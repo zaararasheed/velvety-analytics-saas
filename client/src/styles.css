@@ -292,9 +292,4 @@ a{color:inherit}
     .card{
         width:100%;
         max-width:100%;
-    }
-
-    .brand{
-        align-items:flex-start;
-    }
-}
+        padding:12px
