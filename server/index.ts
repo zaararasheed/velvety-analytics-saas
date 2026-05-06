@@ -214,7 +214,7 @@ app.post("/create-checkout-session", async (req, res) => {
         } else {
             userData = userDoc.data();
         }
-        
+
         let customerId = userData?.stripeCustomerId;
 
         if (!customerId) {
